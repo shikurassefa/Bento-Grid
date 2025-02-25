@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: white;
-  font-family: "Figtree", serif;
+  font-family: "DM Sans", serif;
   font-weight: 400;
   background-color: hsl(250, 23%, 95%);
 }
@@ -61,8 +61,8 @@ body {
 }
 .content-creation h1 {
   font-size: 1.5rem;
-  font-weight: normal;
-  line-height: 1;
+  font-weight: 500;
+line-height: .85;
   margin-top: 1.4rem;
 }
 .content-creation h1 span {
@@ -76,16 +76,14 @@ body {
 .social-media-ai {
   background-color: var(--Purple-Five);
   grid-column: 2/4;
-
-  display: grid;
+display: grid;
   place-items: center;
 }
 .social-media-ai h2 {
   color: #fff;
-  line-height: 0.95;
-  text-transform: capitalize;
-  font-size: 2rem;
-  font-weight: normal;
+  line-height: 1;
+  font-size: 2.4rem;
+  font-weight: 500;
   margin: 1rem 0;
 }
 .social-media-ai h2 span {
@@ -99,12 +97,12 @@ body {
   font-style: italic;
 }
 .stars {
-  width: 150px;
+  width: 120px;
 }
 .reviews {
-  color: hsl(33, 69%, 90%);
+  color: hsl(35, 38%, 91%);
   margin-top: 0.2rem;
-  font-weight: normal;
+  font-size: .8rem;
 }
 .posting-schedule {
   background-color: var(--Purple-Hundrud);
@@ -115,8 +113,8 @@ body {
 }
 .posting-schedule h2 {
   line-height: 0.8;
-  font-weight: normal;
-  font-size: 1.29rem;
+  font-weight: 500;
+  font-size: 1.26rem;
   margin-bottom: .8rem;
   margin-left: .8rem;
 }
@@ -141,13 +139,14 @@ width: 100%;
 }
 .content-ai h2 {
   font-size: 1.3rem;
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 1.2rem;
+  margin-top: 0;
 }
 .content-ai img {
   height: 130px;
-  max-width: 160px;
+  max-width: 170px;
 }
 .manage-accounts {
   background-color: white;
@@ -161,10 +160,13 @@ width: 100%;
   max-width: 220px;
 }
 .manage-accounts p {
-  line-height: 1;
+  line-height: .85;
   width: 150px;
   font-size: 1.4rem;
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  font-weight: 500;
+ 
 }
 .maintain-posts {
   background-color: var(--Yellow-Five);
@@ -174,9 +176,10 @@ width: 100%;
 }
 .maintain-posts h2 {
   line-height: 0.85;
-  font-weight: normal;
+  font-weight: 500;
   margin-top: 0.5rem;
 }
+
 .audience-growth {
   background-color: #fff;
   grid-column: 2/3;
@@ -275,7 +278,9 @@ section {
     {
 font-size: 1.8rem;
 display: flex;
-gap: .45rem;
+
+gap: .1rem;
+
     }
     .schedule
     {
